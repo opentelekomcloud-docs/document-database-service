@@ -28,8 +28,6 @@ project = 'Document Database Service'
 otcdocs_repo_name = 'opentelekomcloud-docs/document-database-service'
 # Those variables are required for edit/bug links
 
-
-
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -93,7 +91,7 @@ html_static_path = ['_static']
 
 # -- Options for PDF output --------------------------------------------------
 latex_documents = [
-('index',
+    ('index',
      'dds-umn.tex',
      u'Document Database Service - User Guide',
      u'OpenTelekomCloud', 'manual'),
