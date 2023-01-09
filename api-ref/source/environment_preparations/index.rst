@@ -5,10 +5,10 @@
 Environment Preparations
 ========================
 
--  :ref:`Token Authentication <dds_api_0010>`
+-  :ref:`Authentication <dds_api_0010>`
 
 .. toctree::
    :maxdepth: 1
    :hidden: 
 
-   token_authentication
+   authentication

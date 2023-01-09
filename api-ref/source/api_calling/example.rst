@@ -22,7 +22,7 @@ If you use a token for authentication, you must obtain the user's token and add 
 Procedure
 ---------
 
-#. Obtain the token by following instructions in section :ref:`Token Authentication <dds_api_0010>`.
+#. Obtain the token by following instructions in section :ref:`Authentication <dds_api_0010>`.
 
 #. Send **POST https://DDS endpoint/v3/{project_id}/instances**.
 
@@ -42,7 +42,7 @@ Procedure
         "name": "test-cluster", //DB instance name
         "datastore": {
           "type": "DDS-Community", // Database type and version
-           "version": "3.4", //Database version
+           "version": "4.0", //Database version
            "storage_engine": "wiredTiger" //Storage engine
         },
           "region": "aaa", //Region name
@@ -50,7 +50,7 @@ Procedure
           "vpc_id": "674e9b42-cd8d-4d25-a2e6-5abcc565b961", //VPC ID
           "subnet_id": "f1df08c5-71d1-406a-aff0-de435a51007b", //Subnet ID
          "security_group_id": "7aa51dbf-5b63-40db-9724-dad3c4828b58", //Security group ID
-         "password": "Test@123", //Administrator password
+        "password": "******", //Administrator password
          "disk_encryption_id": "d4825f1b-5e47-4ff7-8ca9-0960da1770b1", //Key ID for encrypting disks
          "mode": "Sharding", //Sharded-cluster instance type
         "flavor": [
@@ -75,7 +75,7 @@ Procedure
           }
         ],
         "backup_strategy": {
-          "start_time": "08:15-09:15", //Backup time window
+          "start_time": "23:00-00:00", //Backup period
           "keep_days": "8"  //Retention days of backup files
         },
         "ssl_option":"1"
@@ -90,7 +90,7 @@ Procedure
         "name": "test-cluster",
         "datastore": {
           "type": "DDS-Community",
-          "version": "3.4",
+          "version": "4.0",
           "storage_engine": "wiredTiger"
         },
         "created": "2019-01-14 08:50:27",
@@ -122,9 +122,10 @@ Procedure
           }
         ],
         "backup_strategy": {
-          "start_time": "08:15-09:15",
+          "start_time": "23:00-00:00",
           "keep_days": "8"
         },
+        "enterprise_project_id": "",
         "ssl_option":"1",
         "job_id": "c0c606b6-470a-48c7-97a2-6c7f146014d4"
       }

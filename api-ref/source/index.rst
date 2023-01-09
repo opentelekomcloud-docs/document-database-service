@@ -9,6 +9,7 @@ Document Database Service - API Reference
    api_overview
    environment_preparations/index
    api_calling/index
-   api_description/index
+   apis_v3.0_recommended/index
+   permissions_policies_and_supported_actions/index
    appendix/index
    change_history

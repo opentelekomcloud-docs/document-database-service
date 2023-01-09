@@ -8,7 +8,7 @@ Obtaining a Project ID
 Scenarios
 ---------
 
-A project ID is required for some URLs when an API is called. Therefore, you need to obtain a project ID in advance. Two methods are available:
+A project ID is required for some URLs when an API is called. To obtain the project ID:
 
 -  :ref:`Obtaining the Project ID by Calling an API <dds_projectid__section18520151052413>`
 -  :ref:`Obtain a Project ID from the Console <dds_projectid__section127010198244>`
@@ -18,7 +18,7 @@ A project ID is required for some URLs when an API is called. Therefore, you nee
 Obtaining the Project ID by Calling an API
 ------------------------------------------
 
-The API used to obtain a project ID is **GET https://{Endpoint}/v3/projects**. **{Endpoint}** is the IAM endpoint and can be obtained from `Regions and Endpoints <https://docs.otc.t-systems.com/en-us/endpoint/index.html>`__ For details about API authentication, see :ref:`Token Authentication <dds_api_0010>`.
+The API used to obtain a project ID is **GET https://{Endpoint}/v3/projects**. **{Endpoint}** is the IAM endpoint and can be obtained from `Regions and Endpoints <https://docs.otc.t-systems.com/en-us/endpoint/index.html>`__. For details about API authentication, see :ref:`Authentication <dds_api_0010>`.
 
 The following is an example response. The value of **id** is the project ID.
 
@@ -60,7 +60,7 @@ Obtain a Project ID from the Console
    On the **My Credential** page, view the project ID in the project list.
 
 
-   .. figure:: /_static/images/en-us_image_0208249570.jpg
+   .. figure:: /_static/images/en-us_image_0000001387625321.jpg
       :alt: **Figure 1** Viewing project IDs
 
       **Figure 1** Viewing project IDs
