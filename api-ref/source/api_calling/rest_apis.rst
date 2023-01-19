@@ -87,7 +87,7 @@ You can also add additional fields to the request header, for example, the field
 
 A request body is generally sent in a structured format (for example, JSON or XML), corresponding to **Content-Type** in the request header, and is used to transfer content other than the request header.
 
-If the request body contains Chinese characters, convert the Chinese characters into the UTF-8 encoding format.
+If the request body contains full-width characters, convert the full-width characters into the UTF-8 encoding format.
 
 Response Headers
 ----------------

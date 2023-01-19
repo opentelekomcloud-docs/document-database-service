@@ -13,22 +13,20 @@ This API is used to query the specified API version.
 URI
 ---
 
-URI format
+-  URI format
 
-GET /v3
+   GET https://{Endpoint}/{version}
+
+-  Parameter description
+
+   N/A
 
 Requests
 --------
 
--  Request header
+-  Example request
 
-   .. code-block:: text
-
-      GET https://DDS endpoint/v3
-
--  Request body
-
-   N/A
+   GET https://dds.eu-de.otc.t-systems.com/v3
 
 Responses
 ---------
@@ -97,8 +95,10 @@ Responses
           }
       }
 
-**Status Code**
----------------
+Status Code
+-----------
+
+Status Code:200.
 
 For more information, see :ref:`Status Code <dds_status_code>`.
 

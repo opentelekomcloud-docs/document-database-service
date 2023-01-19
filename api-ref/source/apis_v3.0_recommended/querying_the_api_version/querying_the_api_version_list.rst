@@ -15,7 +15,7 @@ URI
 
 -  URI format
 
-   GET /
+   GET https://{Endpoint}/
 
 -  Parameter description
 
@@ -24,15 +24,7 @@ URI
 Requests
 --------
 
--  Request header
-
-   .. code-block:: text
-
-      GET https://DDS endpoint/
-
--  Request body
-
-   N/A
+None
 
 Responses
 ---------
@@ -63,6 +55,8 @@ Responses
       |                       |                       |    If the version is **v3**, the value is **[]**.                                                               |
       +-----------------------+-----------------------+-----------------------------------------------------------------------------------------------------------------+
       | status                | String                | Indicates the version status.                                                                                   |
+      |                       |                       |                                                                                                                 |
+      |                       |                       | The value CURRENT indicates that the version has been released.                                                 |
       +-----------------------+-----------------------+-----------------------------------------------------------------------------------------------------------------+
       | version               | String                | Indicates the subversion of the API version.                                                                    |
       +-----------------------+-----------------------+-----------------------------------------------------------------------------------------------------------------+
@@ -103,8 +97,10 @@ Responses
           ]
       }
 
-**Status Code**
----------------
+Status Code
+-----------
+
+Status Code:200.
 
 For more information, see :ref:`Status Code <dds_status_code>`.
 
