@@ -18,7 +18,7 @@ import os
 import sys
 
 extensions = [
-    'otcdocstheme'
+    'otcdocstheme',
 ]
 
 otcdocs_auto_name = False
@@ -93,9 +93,4 @@ html_static_path = ['_static']
 html_copy_source = False
 
 # -- Options for PDF output --------------------------------------------------
-latex_documents = [
-    ('index',
-     'None.tex',
-     u'Document Database Service - API Reference',
-     u'OpenTelekomCloud', 'manual'),
-]
+latex_documents = []
