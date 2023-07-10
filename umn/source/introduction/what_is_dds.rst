@@ -5,13 +5,13 @@
 What Is DDS?
 ============
 
-Document Database Service (DDS) is compatible with MongoDB and is secure, highly available, reliable, scalable, and easy to use. It provides DB instance creation, scaling, redundancy, backup, restoration, monitoring, and alarm reporting functions with just a few clicks on the DDS console.
+Document Database Service (DDS) is a high availability DBaaS, which provides a secure, reliable and scalable solution, compatible with MongoDB. It provides functions such as one-click deployment, elastic capacity expansion, disaster recovery, backup, restoration, monitoring, and alarm reporting.
 
-DDS has the following characteristics:
+DDS has the following features:
 
--  Automatically sets up three-node replica set architecture. DDS supports fast deployment, high availability (HA) data storage, data redundancy, and failover support.
--  Provides sharded cluster instances consisting of shard, mongos, and config, enabling you to easily enhance read and write performance and build a distributed DDS database system.
--  Provides database backup and restoration functions on the DDS console.
--  Provides performance metrics and sets alarms on any of the metrics to send you notification. You can quickly monitor instance status and identify issues at a glance.
+-  DDS automatically establishes the three-node replica set architecture. It supports fast deployment, high availability (HA) data storage, data redundancy, and failover.
+-  DDS provides sharded cluster instances comprised of a config node paired with multiple shards and mongos nodes. These clusters can be easily scaled up to enhance read and write performance.
+-  DDS lets you back up or restore a database from the management console in just a few clicks.
+-  DDS provides performance metrics and you can configure alarm notifications to make it easier to keep abreast of instance statuses.
 
-For details about the supported DB engines and versions, see :ref:`Database Engine and Version <dds_01_0014>`.
+For details about the compatible DB engines and versions, see :ref:`Database Engine and Version <dds_01_0014>`.

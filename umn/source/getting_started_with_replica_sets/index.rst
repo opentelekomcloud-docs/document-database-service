@@ -5,18 +5,14 @@
 Getting Started with Replica Sets
 =================================
 
--  :ref:`Service Process <dds_02_0010>`
--  :ref:`Restrictions <dds_02_0011>`
--  :ref:`Creating a Replica Set Instance <dds_02_0012>`
--  :ref:`Setting a Security Group <dds_02_0013>`
--  :ref:`Connecting to a Replica Set Instance <dds_02_0014>`
+-  :ref:`Connection Methods <dds_02_0042>`
+-  :ref:`Connecting to a Replica Set Instance Over Private Networks <dds_02_0055>`
+-  :ref:`Connecting to a Replica Set Instance Over Public Networks <dds_02_0050>`
 
 .. toctree::
    :maxdepth: 1
    :hidden: 
 
-   service_process
-   restrictions
-   creating_a_replica_set_instance
-   setting_a_security_group
-   connecting_to_a_replica_set_instance/index
+   connection_methods
+   connecting_to_a_replica_set_instance_over_private_networks/index
+   connecting_to_a_replica_set_instance_over_public_networks/index

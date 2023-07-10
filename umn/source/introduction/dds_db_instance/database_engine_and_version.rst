@@ -5,4 +5,4 @@
 Database Engine and Version
 ===========================
 
-Currently, DDS is compatible with MongoDB 3.2 and 3.4 Community Edition and supports the WiredTiger storage engine, so you need to use a driver compatible with MongoDB 3.0 or later to access DDS.
+DDS is compatible with MongoDB 3.2, 3.4, 4.0, and 4.2 Community Edition and supports the WiredTiger storage engine, so you need to use a driver compatible with MongoDB 3.0 or later to access DDS.

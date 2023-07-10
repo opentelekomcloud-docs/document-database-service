@@ -7,7 +7,7 @@ DDS DB Instance
 
 -  :ref:`DB Instance Specifications <dds_01_0024>`
 -  :ref:`Database Engine and Version <dds_01_0014>`
--  :ref:`Database Status <dds_01_0026>`
+-  :ref:`DB Instance Status <dds_01_0026>`
 
 .. toctree::
    :maxdepth: 1
@@ -15,4 +15,4 @@ DDS DB Instance
 
    db_instance_specifications
    database_engine_and_version
-   database_status
+   db_instance_status

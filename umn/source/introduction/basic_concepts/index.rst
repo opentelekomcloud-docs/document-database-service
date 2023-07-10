@@ -6,7 +6,7 @@ Basic Concepts
 ==============
 
 -  :ref:`Cluster <dds_01_0002>`
--  :ref:`Database Parameter Group <dds_01_0005>`
+-  :ref:`Database Parameter Template <dds_01_0005>`
 -  :ref:`Regions and AZs <dds_01_0027>`
 
 .. toctree::
@@ -14,5 +14,5 @@ Basic Concepts
    :hidden: 
 
    cluster
-   database_parameter_group
+   database_parameter_template
    regions_and_azs
