@@ -62,7 +62,7 @@ Requests
 
    1. If the body parameter is not specified, the slow query log file links of all instance nodes are returned.
 
-   POST https://dds.ap-southeast-1.myhuaweicloud.com/v3/0483b6b16e954cb88930a360d2c4e663/instances/6ade8143870047b8999aba8f1891b48ein02/slowlog-download
+   POST https://dds.eu-de.otc.t-systems.com/v3/0483b6b16e954cb88930a360d2c4e663/instances/6ade8143870047b8999aba8f1891b48ein02/slowlog-download
 
    .. code-block:: text
 
@@ -71,7 +71,7 @@ Requests
 
    2. If the body parameter is specified, the slow query log file link of the current node is returned.
 
-   POST https://dds.ap-southeast-1.myhuaweicloud.com/v3/0483b6b16e954cb88930a360d2c4e663/instances/6ade8143870047b8999aba8f1891b48ein02/slowlog-download
+   POST https://dds.eu-de.otc.t-systems.com/v3/0483b6b16e954cb88930a360d2c4e663/instances/6ade8143870047b8999aba8f1891b48ein02/slowlog-download
 
    .. code-block:: text
 
