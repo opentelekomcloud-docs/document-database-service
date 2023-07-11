@@ -21,6 +21,10 @@ DB Instance Management
 -  :ref:`Unbinding an EIP <dds_api_0057>`
 -  :ref:`Changing a Private IP Address <dds_api_0058>`
 -  :ref:`Enabling Shard or Config IP Addresses <dds_api_0120>`
+-  :ref:`Configuring Cross-CIDR Access for a Replica Set <dds_api_0104>`
+-  :ref:`Setting the Recycle Bin Policy <dds_api_0138>`
+-  :ref:`Querying the Recycling Policy of a DB Instance <dds_api_0215>`
+-  :ref:`Querying DB Instances in the Recycle Bin <dds_api_021>`
 
 .. toctree::
    :maxdepth: 1
@@ -42,3 +46,7 @@ DB Instance Management
    unbinding_an_eip
    changing_a_private_ip_address
    enabling_shard_or_config_ip_addresses
+   configuring_cross-cidr_access_for_a_replica_set
+   setting_the_recycle_bin_policy
+   querying_the_recycling_policy_of_a_db_instance
+   querying_db_instances_in_the_recycle_bin

@@ -16,7 +16,7 @@ Constraints
 -  Frozen instances do not support this operation.
 -  DB instances associated with the IPv6 subnet do not support this operation.
 -  If the IP address is enabled, restart the nodes for the setting to take effect.
--  Cluster instances of Community Edition 3.4 and 4.0 are supported.
+-  Cluster instances of Community Edition 3.4, 4.0 and 4.2 are supported.
 -  This function cannot be disabled after being enabled.
 
 URI

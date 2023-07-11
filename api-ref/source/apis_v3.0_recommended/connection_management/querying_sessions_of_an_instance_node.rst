@@ -13,7 +13,7 @@ This API is used to query sessions of instance nodes.
 Constraints
 -----------
 
-Community Edition 3.4 and 4.0 instances are supported.
+Community Edition 3.4, 4.0 and 4.2 instances are supported.
 
 URI
 ---
