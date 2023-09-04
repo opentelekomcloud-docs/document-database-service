@@ -9,38 +9,48 @@ DB instance specifications are listed in the following table.
 
 .. note::
 
-   DB instance specifications vary depending on the actual environment.
+   The DB instance specifications depend on service requirements.
+
+   You can change the maximum number of connections of a DB instance by modifying the **net.maxIncomingConnections** parameter. For details about how to change the parameter value, see :ref:`Modifying a Parameter Template <en-us_topic_configuration>`.
+
+.. _dds_01_0024__section87233314314:
 
 Cluster
 -------
 
-For details about the cluster instance specifications, see :ref:`Table 1 <dds_01_0024__table147993911564>` and :ref:`Table 2 <dds_01_0024__table196721422132317>`.
+For details about the cluster instance specifications, see :ref:`Table 1 <dds_01_0024__table93922044142815>` and :ref:`Table 2 <dds_01_0024__table3885614174718>`.
 
-.. _dds_01_0024__table147993911564:
+.. _dds_01_0024__table93922044142815:
 
 .. table:: **Table 1** config specifications
 
-   =============== =========== ==========================
-   Number of vCPUs Memory (GB) Max. Number of Connections
-   =============== =========== ==========================
-   2               4           1000
-   =============== =========== ==========================
+   ======== ===== =========== =====================================
+   CPU Type vCPUs Memory (GB) Default Maximum Number of Connections
+   ======== ===== =========== =====================================
+   x86      2     4           600
+   Kunpeng
+   ======== ===== =========== =====================================
 
-.. _dds_01_0024__table196721422132317:
+.. _dds_01_0024__table3885614174718:
 
 .. table:: **Table 2** shard and mongos specifications
 
-   =============== =========== ==========================
-   Number of vCPUs Memory (GB) Max. Number of Connections
-   =============== =========== ==========================
-   1               4           400
-   2               8           400
-   4               16          1000
-   8               32          4000
-   16              64          8000
-   =============== =========== ==========================
+   ===== =========== =====================================
+   vCPUs Memory (GB) Default Maximum Number of Connections
+   ===== =========== =====================================
+   1     4           400
+   2     8           400
+   4     16          1000
+   8     32          4000
+   16    64          8000
+   ===== =========== =====================================
 
 Replica Set
 -----------
 
-The supported replica set specifications are the same as those of shard and mongos nodes. For details, see :ref:`Table 2 <dds_01_0024__table196721422132317>`.
+The specifications supported by a replica set are the same as those supported by shard and mongos. For details, see :ref:`Table 2 <dds_01_0024__table3885614174718>`.
+
+Single Node
+-----------
+
+The specifications supported by a single node are the same as those supported by shard and mongos. For details, see :ref:`Table 2 <dds_01_0024__table3885614174718>`.

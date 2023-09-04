@@ -5,12 +5,14 @@
 System Architecture
 ===================
 
--  :ref:`Cluster Architecture <dds_01_0011>`
--  :ref:`Replica Set Architecture <dds_01_0012>`
+-  :ref:`Cluster <dds_01_0011>`
+-  :ref:`Replica Set <dds_01_0012>`
+-  :ref:`Single Node Architecture <dds_01_0025>`
 
 .. toctree::
    :maxdepth: 1
    :hidden: 
 
-   cluster_architecture
-   replica_set_architecture
+   cluster
+   replica_set
+   single_node_architecture
