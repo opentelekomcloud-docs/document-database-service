@@ -14,6 +14,7 @@ APIs V3.0 (Recommended)
 -  :ref:`Backup and Restoration <dds_backup_restore>`
 -  :ref:`Log Information Queries <dds_api_0092>`
 -  :ref:`Tag Management <dds_tag_mgmt>`
+-  :ref:`Managing Databases and Users <dds_api_0070>`
 -  :ref:`Task Management <dds_api_0117>`
 
 .. toctree::
@@ -29,4 +30,5 @@ APIs V3.0 (Recommended)
    backup_and_restoration/index
    log_information_queries/index
    tag_management/index
+   managing_databases_and_users/index
    task_management/index
