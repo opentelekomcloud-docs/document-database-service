@@ -13,7 +13,7 @@ This API is used to kill sessions of an instance node.
 Constraints
 -----------
 
--  Community Edition 3.4, 4.0 and 4.2 instances are supported.
+-  Community Edition 3.4, 4.0, 4.2, and 4.4 instances are supported.
 -  Inactive sessions cannot be terminated.
 
 URI
