@@ -8,6 +8,7 @@ Document Database Service (DDS) is a cloud computing-based NoSQL database featur
 
    .. service_card::
       :service_type: dds
+      :environment: internal
       :umn: This document describes basic concepts, functions, key terms, and FAQs of Document Database Service (DDS) and provides instructions for applying for and using DDS.
       :api-ref: This document describes application programming interfaces (APIs) of Document Database Service (DDS) and provides API parameter description and example values.
-      
+      :best-practice: To use Document Database Service more securely, reliably, flexibly, and efficiently, you are advised to follow the following best practices.
