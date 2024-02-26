@@ -71,7 +71,7 @@ Requests
       |                       |                 |                  |                                                                                                                                                                                                                        |
       |                       |                 |                  | Enter a strong password to improve security, preventing security risks such as brute force cracking.                                                                                                                   |
       +-----------------------+-----------------+------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | disk_encryption_id    | No              | String           | Specifies the key ID used for disk encryption. The string must comply with UUID regular expression rules.                                                                                                              |
+      | disk_encryption_id    | No              | String           | The key ID used for disk encryption. The string must comply with UUID regular expression rules.                                                                                                                        |
       |                       |                 |                  |                                                                                                                                                                                                                        |
       |                       |                 |                  | If this parameter is not transferred, disk encryption is not performed.                                                                                                                                                |
       +-----------------------+-----------------+------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -479,7 +479,7 @@ Responses
           "vpc_id": "674e9b42-cd8d-4d25-a2e6-5abcc565b961",
           "subnet_id": "f1df08c5-71d1-406a-aff0-de435a51007b",
           "security_group_id": "7aa51dbf-5b63-40db-9724-dad3c4828b58",
-          "disk_encryption_id": "",
+          "disk_encryption_id": "2gfdsh-844a-4023-a776-fc5c5fb71fb4",
           "mode": "Sharding",
           "flavor": [
               {
@@ -528,7 +528,7 @@ Responses
           "vpc_id": "674e9b42-cd8d-4d25-a2e6-5abcc565b961",
           "subnet_id": "f1df08c5-71d1-406a-aff0-de435a51007b",
           "security_group_id": "7aa51dbf-5b63-40db-9724-dad3c4828b58",
-          "disk_encryption_id": "",
+          "disk_encryption_id": "2gfdsh-844a-4023-a776-fc5c5fb71fb4",
           "mode": "ReplicaSet",
           "flavor": [
               {
@@ -566,7 +566,7 @@ Responses
           "vpc_id": "674e9b42-cd8d-4d25-a2e6-5abcc565b961",
           "subnet_id": "f1df08c5-71d1-406a-aff0-de435a51007b",
           "security_group_id": "7aa51dbf-5b63-40db-9724-dad3c4828b58",
-          "disk_encryption_id": "",
+          "disk_encryption_id": "2gfdsh-844a-4023-a776-fc5c5fb71fb4",
           "mode": "Single",
           "flavor": [
               {
