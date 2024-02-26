@@ -5,7 +5,7 @@
 What Is DDS?
 ============
 
-Document Database Service (DDS) is a high availability DBaaS, which provides a secure, reliable and scalable solution, compatible with MongoDB. It provides functions such as one-click deployment, elastic capacity expansion, disaster recovery, backup, restoration, monitoring, and alarm reporting.
+Document Database Service (DDS) is a high availability DBaaS, which provides a secure, reliable and scalable solution, compatible with MongoDB community version 4.0.3 as baseline version.It provides functions such as one-click deployment, elastic capacity expansion, disaster recovery, backup, restoration, monitoring, and alarm reporting.
 
 DDS has the following features:
 
