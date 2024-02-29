@@ -15,6 +15,7 @@ Introduction
 -  :ref:`User Permissions <dds_01_0017>`
 -  :ref:`Permissions Management <dds_01_0019>`
 -  :ref:`Related Services <dds_01_0016>`
+-  :ref:`Mapping Between DDS Versions and Community Versions <dds_01_0060>`
 
 .. toctree::
    :maxdepth: 1
@@ -30,3 +31,4 @@ Introduction
    user_permissions
    permissions_management
    related_services
+   mapping_between_dds_versions_and_community_versions
