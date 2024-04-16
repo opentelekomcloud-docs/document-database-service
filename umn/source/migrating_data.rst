@@ -10,6 +10,8 @@ Migrating Data
 
 DDS is accessible through an EIP in a public network or an ECS in a private network.
 
+DDS is compatible with MongoDB.
+
 MongoDB can export data from a database into a JSON file. Such a JSON file can then be used to import the data to MongoDB databases. This section describes how to import the data from the JSON files to DDS using the mongoimport tool on the ECS or from some other devices that can access DDS.
 
 **Prerequisites**
@@ -61,7 +63,7 @@ Exporting Data (Linux example)
 
    The following is an example. After the command is executed, the **exportfile.json** file will be generated:
 
-   **mongoexport --host 192.168.1.21 --port 8635 --ssl --sslAllowInvalidCertificates --type json --authenticationDatabase admin -u rwuser --db test02 --collection Test --out /tmp/mongodb/export/exportfile.json**
+   **mongoexport --host 192.168.1.21 --port 8635 --ssl --sslAllowInvalidCertificates --type json --authenticationDatabase admin -u rwuser --db test02 --collection Test --out /tmp/***/export/exportfile.json**
 
 #. Check the result.
 
@@ -121,7 +123,7 @@ Importing Data
 
    The following is an example:
 
-   **mongoimport --host 192.168.1.21 --port 8635 --ssl --sslAllowInvalidCertificates --type json --authenticationDatabase admin -u rwuser --db test02 --collection Test --file /tmp/mongodb/export/exportfile.json**
+   **mongoimport --host 192.168.1.21 --port 8635 --ssl --sslAllowInvalidCertificates --type json --authenticationDatabase admin -u rwuser --db test02 --collection Test --file /tmp/***/export/exportfile.json**
 
 #. Check the result.
 

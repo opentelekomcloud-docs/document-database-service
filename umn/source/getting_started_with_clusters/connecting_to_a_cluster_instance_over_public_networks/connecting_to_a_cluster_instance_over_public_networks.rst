@@ -8,7 +8,7 @@ Connecting to a Cluster Instance Over Public Networks
 Scenarios
 ---------
 
-This section describes how to connect to a cluster instance using the MongoDB client and Robo 3T over public networks.
+This section describes how to connect to a cluster instance using the MongoDB client and Robo 3T over public networks.DDS is compatible with MongoDB.
 
 The MongoDB client and Robo 3T can connect to a DB instance with an unencrypted connection or an encrypted connection (SSL). To improve data transmission security, you are advised to connect to DB instances using the SSL connection.
 

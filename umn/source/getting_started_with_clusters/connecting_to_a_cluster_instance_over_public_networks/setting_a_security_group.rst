@@ -8,7 +8,7 @@ Setting a Security Group
 Scenarios
 ---------
 
-This section explains how to add a security group rule to control access to and from the DDS DB instances associated with a security group.
+This section explains how to add a security group rule to control access to and from the DDS DB instances associated with a security group.DDS is compatible with MongoDB.
 
 Precautions
 -----------

@@ -8,7 +8,7 @@ Connecting to a Single Node Instance Over Private Networks
 Scenarios
 ---------
 
-This section describes how to connect to a single-node instance using the MongoDB client over private networks.
+This section describes how to connect to a single-node instance using the MongoDB client over private networks.DDS is compatible with MongoDB.
 
 The MongoDB client can connect to a DB instance with an unencrypted connection or an encrypted connection (SSL). To improve data transmission security, you are advised to connect to DB instances using the SSL connection.
 

@@ -8,7 +8,7 @@ Connecting to a Replica Set Instance Over Public Networks
 **Scenarios**
 -------------
 
-This section describes how to connect to a replica set instance using the MongoDB client and Robo 3T over public networks.
+This section describes how to connect to a replica set instance using the MongoDB client and Robo 3T over public networks.DDS is compatible with MongoDB.
 
 You can directly perform operations on the primary and secondary nodes. Primary nodes are used for processing read and write requests. Secondary nodes replicate data from the primary and are used for processing read requests only.
 

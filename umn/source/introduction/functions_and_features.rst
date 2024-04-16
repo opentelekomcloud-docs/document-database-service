@@ -12,7 +12,7 @@ DDS supports three deployment architectures: cluster, replica set, and single no
 
 -  Cluster
 
-   A cluster consists of three types of nodes: mongos, shard, and config. You can select the number and configuration of mongos and shard nodes to create cluster instances with different levels of service performance.
+   A cluster consists of three types of nodes: dds mongos, shard, and config. You can select the number and configuration of dds mongos and shard nodes to create cluster instances with different levels of service performance.
 
 -  Replica set
 
@@ -25,7 +25,7 @@ DDS supports three deployment architectures: cluster, replica set, and single no
 Elastic Scaling
 ---------------
 
-With the development of your services, you can change CPU and memory specifications of instances, expand storage space, and add mongos and shard nodes of cluster DB instances in real time. You are advised to perform the change during off-peak hours to avoid the impact of changes on your services.
+With the development of your services, you can change CPU and memory specifications of instances, expand storage space, and add dds mongos and shard nodes of cluster DB instances in real time. You are advised to perform the change during off-peak hours to avoid the impact of changes on your services.
 
 Key Features
 ------------

@@ -8,7 +8,7 @@ Enabling IP Addresses of shard and config Nodes
 Scenarios
 ---------
 
-A cluster instance of Community Edition consists of mongos, shard, and config nodes. When your services need to read and write data from and into databases, connect to the mongos node. In certain scenarios, you need to read data from the shard or config node. Therefore, obtaining the IP address of the corresponding node is necessary.
+A cluster instance of Community Edition consists of dds mongos, shard, and config nodes. When your services need to read and write data from and into databases, connect to the dds mongos node. In certain scenarios, you need to read data from the shard or config node. Therefore, obtaining the IP address of the corresponding node is necessary.
 
 This section describes how to obtain the IP addresses of the shard and config nodes.
 

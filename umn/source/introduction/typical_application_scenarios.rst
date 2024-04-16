@@ -20,7 +20,7 @@ Advantages:
 IoT
 ---
 
-DDS is compatible with MongoDB and provides the high-performance and asynchronous data write function. In certain scenarios, DDS can process data in the memory database. In addition, cluster instances can dynamically add the number of mongos and shard nodes or upgrade specifications. The performance and storage space can be quickly expanded, making cluster instances suitable for IoT scenarios with high concurrent writes.
+DDS is compatible with MongoDB and provides the high-performance and asynchronous data write function. In certain scenarios, DDS can process data in the memory database. In addition, cluster instances can dynamically add the number of dds mongos and shard nodes or upgrade specifications. The performance and storage space can be quickly expanded, making cluster instances suitable for IoT scenarios with high concurrent writes.
 
 Intelligent IoT terminals need to collect various types of data, store device logs, and analyze information in multiple dimensions. In recent years, IoT services have grown rapidly, with huge volumes of data and increasing access traffic that require horizontal expansion capabilities for data storage.
 

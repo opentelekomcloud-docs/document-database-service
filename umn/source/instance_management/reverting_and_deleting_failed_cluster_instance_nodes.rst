@@ -28,7 +28,7 @@ Deleting Failed Cluster Instance Nodes
 
 #. On the **Instance Management** page, click the target cluster instance to which the node fails to be added.
 
-#. In the **Node Information** area on the **Basic Information** tab, click the **mongos** or **shard** tab, locate the mongos or shard that failed to be added, and choose **More** > **Delete**.
+#. In the **Node Information** area on the **Basic Information** tab, click the **dds mongos** or **shard** tab, locate the dds mongos or shard that failed to be added, and choose **More** > **Delete**.
 
 #. In the displayed dialog box, click **Yes**.
 

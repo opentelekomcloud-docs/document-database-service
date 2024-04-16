@@ -10,7 +10,7 @@ Document Database Service (DDS) is a high availability DBaaS, which provides a s
 DDS has the following features:
 
 -  DDS automatically establishes the three-node replica set architecture. It supports fast deployment, high availability (HA) data storage, data redundancy, and failover.
--  DDS provides sharded cluster instances comprised of a config node paired with multiple shards and mongos nodes. These clusters can be easily scaled up to enhance read and write performance.
+-  DDS provides sharded cluster instances comprised of a config node paired with multiple shards and dds mongos nodes. These clusters can be easily scaled up to enhance read and write performance.
 -  DDS lets you back up or restore a database from the management console in just a few clicks.
 -  DDS provides performance metrics and you can configure alarm notifications to make it easier to keep abreast of instance statuses.
 
