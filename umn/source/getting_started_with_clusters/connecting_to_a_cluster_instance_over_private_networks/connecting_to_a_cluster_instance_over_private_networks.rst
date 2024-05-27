@@ -84,7 +84,7 @@ Connecting to a DB Instance Using the MongoDB Client (SSL)
 
       The connection information can be obtained in the **Address** column on the **Instance Management** page.
 
-      A connection address indicates that one of the mongos nodes will be randomly connected. If you use this method to connect to a DB instance, use the MongoDB client of version later than 3.4.
+      A connection address indicates that one of the dds mongos nodes will be randomly connected. If you use this method to connect to a DB instance, use the MongoDB client of version later than 3.4.
 
    .. note::
 
@@ -137,7 +137,7 @@ Connecting to a DB Instance Using the MongoDB Client (Non-SSL)
 
       The connection information can be obtained in the **Address** column on the **Instance Management** page.
 
-      A connection address indicates that one of the mongos nodes will be randomly connected. If you use this method to connect to a DB instance, use the MongoDB client of version later than 3.4.
+      A connection address indicates that one of the dds mongos nodes will be randomly connected. If you use this method to connect to a DB instance, use the MongoDB client of version later than 3.4.
 
    .. note::
 

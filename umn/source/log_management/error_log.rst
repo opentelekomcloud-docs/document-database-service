@@ -18,7 +18,7 @@ Procedure
 #. In the navigation pane on the left, click **Error Logs**.
 #. On the displayed page, click **Error Logs**. Then, view the log details.
 
-   -  For a cluster instance, you can view error logs of the mongos, shard, and config nodes.
+   -  For a cluster instance, you can view error logs of the dds mongos, shard, and config nodes.
    -  For a replica set instance, you can view the error logs of the primary, secondary, and hidden nodes.
    -  For a single node instance, you can view error logs of the current node.
    -  You can view up to 2,000 error logs of a specified node type, at a specified level, and within a specified period.

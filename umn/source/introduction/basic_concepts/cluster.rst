@@ -5,21 +5,21 @@
 Cluster
 =======
 
-Each DDS cluster consists of a config node, and multiple mongos and shard nodes. The following diagram shows the node relationships.
+Each DDS cluster consists of a config node, and multiple dds mongos and shard nodes. The following diagram shows the node relationships.
 
 
-.. figure:: /_static/images/en-us_image_0000001096133880.png
+.. figure:: /_static/images/en-us_image_0000001845343652.png
    :alt: **Figure 1** Diagram of node relationships
 
    **Figure 1** Diagram of node relationships
 
-mongos
-------
+dds mongos
+----------
 
-A mongos is a router for reading and writing data, providing a unified interface for accessing DB instances.
+A dds mongos is a router for reading and writing data, providing a unified interface for accessing DB instances.
 
--  Each DB instance has 2 to 32 mongos. You can specify the quantity.
--  A mongos reads configuration settings from configs and allocates read and write requests to shards. You can connect to a mongos directly.
+-  Each DB instance has 2 to 32 dds mongos. You can specify the quantity.
+-  A dds mongos reads configuration settings from configs and allocates read and write requests to shards. You can connect to a dds mongos directly.
 
 config
 ------

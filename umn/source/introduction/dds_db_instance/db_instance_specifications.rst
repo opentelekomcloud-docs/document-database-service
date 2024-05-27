@@ -33,7 +33,7 @@ For details about the cluster instance specifications, see :ref:`Table 1 <dds_01
 
 .. _dds_01_0024__table3885614174718:
 
-.. table:: **Table 2** shard and mongos specifications
+.. table:: **Table 2** shard and dds mongos specifications
 
    ===== =========== =====================================
    vCPUs Memory (GB) Default Maximum Number of Connections
@@ -48,9 +48,9 @@ For details about the cluster instance specifications, see :ref:`Table 1 <dds_01
 Replica Set
 -----------
 
-The specifications supported by a replica set are the same as those supported by shard and mongos. For details, see :ref:`Table 2 <dds_01_0024__table3885614174718>`.
+The specifications supported by a replica set are the same as those supported by shard and dds mongos. For details, see :ref:`Table 2 <dds_01_0024__table3885614174718>`.
 
 Single Node
 -----------
 
-The specifications supported by a single node are the same as those supported by shard and mongos. For details, see :ref:`Table 2 <dds_01_0024__table3885614174718>`.
+The specifications supported by a single node are the same as those supported by shard and dds mongos. For details, see :ref:`Table 2 <dds_01_0024__table3885614174718>`.

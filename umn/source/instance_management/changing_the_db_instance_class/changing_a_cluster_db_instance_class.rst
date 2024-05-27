@@ -5,18 +5,18 @@
 Changing a Cluster DB Instance Class
 ====================================
 
-Changing mongos
----------------
+Changing dds mongos
+-------------------
 
 #. :ref:`Log in to the DDS console. <dds_02_0043>`
 #. On the **Instance Management** page, click the target cluster instance.
-#. In the **Node Information** area on the **Basic Information** page, click the **mongos** tab, locate the target mongos, and click **Change Instance Class** in the **Operation** column.
+#. In the **Node Information** area on the **Basic Information** page, click the dds mongos tab, locate the target dds mongos, and click **Change Instance Class** in the **Operation** column.
 #. On the displayed page, select the new instance class and click **Submit**.
 #. View the DB instance class change result.
 
    -  When the CPU or memory of a DB instance is being changed, the status displayed in the **Status** column is **Changing instance class**. This process takes up to 10 minutes.
    -  In the upper right corner of the DB instance list, click |image1| to refresh the list. The instance status changes to **Available**.
-   -  In the **Node Information** area on the **Basic Information** page, click the **mongos** tab and view the new instance class.
+   -  In the **Node Information** area on the **Basic Information** page, click the **dds mongos** tab and view the new instance class.
 
 Changing shard
 --------------

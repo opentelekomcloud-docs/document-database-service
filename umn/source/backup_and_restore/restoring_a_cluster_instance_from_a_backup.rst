@@ -29,7 +29,7 @@ Method 1
       The **Create New Instance** page is displayed for you to create a DB instance using the backup data. The new DB instance is independent from the original one.
 
       -  The database type, DB instance type, compatible MongoDB version, storage engine, storage type, and shard quantity must be the same as those of the original and cannot be changed.
-      -  The number of mongos nodes is 2 by default and ranges from 2 to 32. You can specify the quantity.
+      -  The number of dds mongos nodes is 2 by default and ranges from 2 to 32. You can specify the quantity.
       -  The storage space is the same as that of the original instance by default. You can only increase the storage space.
       -  Other settings have default values and can be modified. For details, see section :ref:`Creating a Cluster Instance <en-us_topic_0044018333>`.
 
@@ -67,7 +67,7 @@ Method 2
       The **Create New Instance** page is displayed for you to create a DB instance using the backup data. The new DB instance is independent from the original one.
 
       -  The database type, DB instance type, compatible MongoDB version, storage engine, storage type, and shard quantity must be the same as those of the original and cannot be changed.
-      -  The number of mongos nodes is 2 by default and ranges from 2 to 32. You can specify the quantity.
+      -  The number of dds mongos nodes is 2 by default and ranges from 2 to 32. You can specify the quantity.
       -  The storage space is the same as that of the original instance by default. You can only increase the storage space.
       -  Other settings have default values and can be modified. For details, see section :ref:`Creating a Cluster Instance <en-us_topic_0044018333>`.
 

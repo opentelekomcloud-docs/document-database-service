@@ -40,7 +40,7 @@ Restarting a Node (Cluster)
 
 #. On the **Instance Management** page, click the target cluster instance.
 
-#. In the **Node Information** area on the **Basic Information** page, click the **mongos**, **shard**, or **config** tab, locate the target node, and in the **Operation** column, click **Restart**.
+#. In the **Node Information** area on the **Basic Information** page, click the **dds mongos**, **shard**, or **config** tab, locate the target node, and in the **Operation** column, click **Restart**.
 
 #. In the displayed dialog box, click **Yes**.
 

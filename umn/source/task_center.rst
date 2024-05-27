@@ -13,34 +13,49 @@ This section describes how to view the progress and result of asynchronous tasks
 Tasks Overview
 --------------
 
--  Creating a snapshot backup
 -  Creating a cluster Instance
 -  Creating a replica set instance
 -  Creating a single node instance
 -  Scaling up storage space
--  Changing the Community Edition instance
+-  Scaling down storage space
+-  Changing the Community Edition instance class
+-  Changing the Enhanced Edition instance class
 -  Adding nodes
--  Adding standby nodes to a replica set
 -  Restarting a cluster instance
 -  Restarting cluster nodes
--  Restart a cluster node
+-  Restart a node
 -  Restarting a replica set instance
 -  Restarting a single-node instance
+-  Restoring to a new cluster instance
+-  Restoring to a new replica set instance
+-  Restoring to a new single-node instance
+-  Restoring a cluster instance to a point in time
+-  Restoring a replica set instance to a point in time
+-  Restoring a single-node instance to a point in time
+-  Adding standby nodes to a replica set
 -  Switch Primary and Secondary Nodes
 -  Change Private IP Address
 -  Changing a security group
 -  Changing a database port
 -  Bind EIP
+-  Unbind EIP
+-  Switch SSL
 -  Change AZ
 -  Enabling the shard/config IP address
 -  Modifying the oplog size
--  Restoring to a new cluster instance
--  Restoring to a new replica set instance
--  Restoring to a new single-node instance
--  Restoring a replica set instance to a point in time
 -  Creating a physical backup
 -  Creating a snapshot backup
--  Restore Database and Table
+-  Restoring data
+-  Restoring data to a point in time
+-  Restore database and tables
+-  Restoring to the original instance
+-  Restoring to a new instance
+-  Restoring to the original instance to a specific point in time
+-  Restoring to a new instance to a specific point in time
+-  Recycling backups
+-  Installing database patches
+-  Adding read replicas
+-  Deleting read replicas from a replica set instance
 
 .. note::
 

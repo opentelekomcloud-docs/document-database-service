@@ -14,27 +14,27 @@ This section describes how to add nodes to a cluster instance.
 
    -  You can add nodes when the instance status is **Available**, **Deleting backup**, or **Checking restoration**.
    -  A DB instance cannot be deleted when nodes are being added.
-   -  Mongos and shard nodes that are successfully added cannot be deleted.
+   -  dds mongos and shard nodes that are successfully added cannot be deleted.
 
-Add mongos
-----------
+Add dds mongos
+--------------
 
 #. :ref:`Log in to the DDS console. <dds_02_0043>`
 
 #. On the **Instance Management** page, click the target cluster instance.
 
-#. On the **mongos** tab in the **Node Information** area, click **Add mongos**.
+#. On the dds mongos tab in the **Node Information** area, click **Add dds mongos**.
 
 #. On the displayed page, specify **Node Class**, **Nodes**, and **Parameter Template** and click **Submit**.
 
-   A cluster instance of Community Edition supports up to 32 mongos nodes.
+   A cluster instance of Community Edition supports up to 32 dds mongos nodes.
 
 #. View the result of adding nodes.
 
    -  This process takes up to 15 minutes. The status of the DB instance in the instance list is **Adding node**.
    -  In the upper right corner of the DB instance list, click |image1| to refresh the list. The instance status changes to **Available**.
-   -  On the **mongos** tab in the **Node Information** area, view the information about the node you added.
-   -  If the mongos fail to be added, you can revert them in batches or delete them one by one. For details, see section :ref:`Reverting and Deleting Failed Cluster Instance Nodes <dds_03_0018>`.
+   -  On the dds mongos tab in the **Node Information** area, view the information about the node you added.
+   -  If the dds mongos fail to be added, you can revert them in batches or delete them one by one. For details, see section :ref:`Reverting and Deleting Failed Cluster Instance Nodes <dds_03_0018>`.
 
 Add shard
 ---------
