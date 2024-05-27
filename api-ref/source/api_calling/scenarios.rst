@@ -8,7 +8,7 @@ Scenarios
 DDS open APIs allow users to create, view, or delete DB instances, query API versions, DB engines, DB engine versions, and DB instance class supported by the system. The application scenarios are shown as follows.
 
 
-.. figure:: /_static/images/en-us_image_0000001336985362.png
+.. figure:: /_static/images/en-us_image_0000001803204856.png
    :alt: **Figure 1** Scenarios
 
    **Figure 1** Scenarios

@@ -12,6 +12,7 @@ APIs V3.0 (Recommended)
 -  :ref:`DB Instance Management <dds_instance_mgmt>`
 -  :ref:`Connection Management <dds_connect_0001>`
 -  :ref:`Backup and Restoration <dds_backup_restore>`
+-  :ref:`Parameter Configuration <dds_api_0085>`
 -  :ref:`Log Information Queries <dds_api_0092>`
 -  :ref:`Tag Management <dds_tag_mgmt>`
 -  :ref:`Managing Databases and Users <dds_api_0070>`
@@ -28,6 +29,7 @@ APIs V3.0 (Recommended)
    db_instance_management/index
    connection_management/index
    backup_and_restoration/index
+   parameter_configuration/index
    log_information_queries/index
    tag_management/index
    managing_databases_and_users/index

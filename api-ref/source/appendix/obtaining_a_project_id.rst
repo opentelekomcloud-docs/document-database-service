@@ -60,7 +60,7 @@ Obtain a Project ID from the Console
    On the **My Credential** page, view the project ID in the project list.
 
 
-   .. figure:: /_static/images/en-us_image_0000001387625321.jpg
+   .. figure:: /_static/images/en-us_image_0000001803204868.jpg
       :alt: **Figure 1** Viewing project IDs
 
       **Figure 1** Viewing project IDs
