@@ -36,12 +36,12 @@ Setting Password Strength for Database Accounts
 -  The administrator password must meet the following password policy:
 
    -  Contains 8 to 32 characters.
-   -  Must be a combination of uppercase letters, lowercase letters, digits, and special characters: ``~!@#%^*-_=+?``
+   -  Must be a combination of uppercase letters, lowercase letters, digits, and special characters:``~!@#%^*-_=+?``
 
 -  The database user created on the client must meet the following password policy:
 
    -  Contains 8 to 32 characters.
-   -  Must be a combination of uppercase letters, lowercase letters, digits, and special characters: ``~@#%-_!*+=^?``
+   -  Must be a combination of uppercase letters, lowercase letters, digits, and special characters:``~@#%-_!*+=^?``
 
 When you create a DB instance, DDS automatically checks your password strength. You can change the password as user **rwuser**. For security reasons, you are advised to set up a strong password.
 
