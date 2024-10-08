@@ -18,7 +18,7 @@ DDS Permissions
 
 By default, new IAM users do not have permissions assigned. You need to add a user to one or more groups, and attach permissions policies or roles to these groups. Users inherit permissions from the groups to which they are added and can perform specified operations on cloud services based on the permissions.
 
-DDS is a project-level service deployed and accessed in specific physical regions. To assign GaussDB NoSQL permissions to a user group, specify the scope as region-specific projects and select projects for the permissions to take effect. If **All projects** is selected, the permissions will take effect for the user group in all region-specific projects. When accessing DDS, users need to switch to a region where they have been authorized to use DDS.
+DDS is a project-level service deployed and accessed in specific physical regions. To assign DDS permissions to a user group, specify the scope as region-specific projects and select projects for the permissions to take effect. If **All projects** is selected, the permissions will take effect for the user group in all region-specific projects. When accessing DDS, users need to switch to a region where they have been authorized to use DDS.
 
 You can grant users permissions by using roles and policies.
 
