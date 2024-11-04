@@ -28,7 +28,7 @@ Method 1
 
 #. Enter and confirm the new administrator password and click **OK**.
 
-   The password must be 8 to 32 characters in length and contain uppercase letters, lowercase letters, digits, and any of the following special characters:``~!@#%^*-_=+?``
+   The password must be 8 to 32 characters in length and contain uppercase letters, lowercase letters, digits, and any of the following special characters: ``~!@#%^*-_=+?``
 
 Method 2
 --------
@@ -41,4 +41,4 @@ Method 2
 
 #. Enter and confirm the new administrator password and click **OK**.
 
-   The password must be 8 to 32 characters in length and contain uppercase letters, lowercase letters, digits, and any of the following special characters:``~!@#%^*-_=+?``
+   The password must be 8 to 32 characters in length and contain uppercase letters, lowercase letters, digits, and any of the following special characters: ``~!@#%^*-_=+?``
