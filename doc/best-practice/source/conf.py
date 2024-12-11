@@ -110,7 +110,7 @@ html_copy_source = False
 latex_documents = [
     ('index',
      'dds-best-practice.tex',
-     u'Document Database Service - Best Practice',
+    u'Document Database Service - Best Practice',
      u'OpenTelekomCloud', 'manual'),
 ]
 

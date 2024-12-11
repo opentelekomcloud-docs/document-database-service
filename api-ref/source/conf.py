@@ -109,8 +109,8 @@ html_copy_source = False
 # -- Options for PDF output --------------------------------------------------
 latex_documents = [
     ('index',
-     'None.tex',
-     u'Document Database Service - API Reference',
+     'dds-api-ref.tex',
+    u'Document Database Service - API Reference',
      u'OpenTelekomCloud', 'manual'),
 ]
 
