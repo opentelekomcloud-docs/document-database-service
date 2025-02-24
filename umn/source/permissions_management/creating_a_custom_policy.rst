@@ -74,8 +74,13 @@ Example Custom Policies
                       }
               ]
       }
-      Example 4: Setting resource policies
-      A custom policy can be used to set resource policies, indicating the operation permissions on the resources under the current action. Currently, the instance name can be configured, and the asterisk (*) can be used as a wildcard. The following is an example resource policy:
+
+-  Example 4: Setting resource policies
+
+   A custom policy can be used to set resource policies, indicating the operation permissions on the resources under the current action. Currently, the instance name can be configured, and the asterisk (*) can be used as a wildcard. The following is an example resource policy:
+
+   .. code-block:: text
+
       {
           "Version": "1.1",
           "Statement": [
