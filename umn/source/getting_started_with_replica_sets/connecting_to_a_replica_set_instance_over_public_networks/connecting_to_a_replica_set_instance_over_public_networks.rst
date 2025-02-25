@@ -191,7 +191,9 @@ Connecting to a DB Instance Using the MongoDB Client (SSL)
 
    -  Method 1: Using standard parameters
 
-      **mongo --host** <*DB_HOST*> **--port** <*DB_PORT*> **-u** <*DB_USER*> **-p** **--authenticationDatabase** **admin** **--ssl --sslCAFile** <*FILE_PATH*> **--sslAllowInvalidHostnames**
+      .. code-block:: text
+
+         mongo --host <DB_HOST> --port <DB_PORT> -u <DB_USER> -p --authenticationDatabase admin --ssl --sslCAFile <FILE_PATH> --sslAllowInvalidHostnames
 
       Enter the database account password when prompted:
 
@@ -201,7 +203,9 @@ Connecting to a DB Instance Using the MongoDB Client (SSL)
 
    -  Method 2: Using standard URI format
 
-      **mongo** **"mongodb://rwuser:**\ <password>\ **@**\ *<DB_HOST>*\ **:**\ *<DB_PORT>*\ **/test?authSource=admin&replicaSet=replica"** **--ssl --sslCAFile** *<FILE_PATH>* **--sslAllowInvalidHostnames**
+      .. code-block:: text
+
+         mongo "mongodb://rwuser:<password>@<DB_HOST>:<DB_PORT>/test?authSource=admin&replicaSet=replica" --ssl --sslCAFile <FILE_PATH> --sslAllowInvalidHostnames
 
       To obtain the public connection address, click the instance name and choose **Connections**. The address is displayed in **Public Network Connection Address** field on the **Public Connection** tab.
 
@@ -218,11 +222,15 @@ Connecting to a DB Instance Using the MongoDB Client (SSL)
 
    -  Connect to the instance using standard parameters. The following is an example command:
 
-      **mongo** **--host replica/192.168.1.6,192.168.1.80 --port 8635 -u rwuser -p --authenticationDatabase admin --ssl --sslCAFile /tmp/ca.crt** **--sslAllowInvalidHostnames**
+      .. code-block:: text
+
+         mongo --host replica/192.168.1.6,192.168.1.80 --port 8635 -u rwuser -p --authenticationDatabase admin --ssl --sslCAFile /tmp/ca.crt --sslAllowInvalidHostnames
 
    -  Connect to the DB instance Using standard URI format. The following is an example command:
 
-      **mongo** **"mongodb://rwuser:<password>@\ 192.168.1.80:8635/test?authSource=admin&replicaSet=replica\ "** **--ssl --sslCAFile** **/tmp/ca.crt** **--sslAllowInvalidHostnames**
+      .. code-block:: text
+
+         mongo "mongodb://rwuser:<password>@192.168.1.80:8635/test?authSource=admin&replicaSet=replica" --ssl --sslCAFile /tmp/ca.crt --sslAllowInvalidHostnames
 
 #. Check the connection result. If the following information is displayed, the connection is successful.
 
@@ -249,7 +257,9 @@ Connecting to a DB Instance Using the MongoDB Client (Non-SSL)
 
    -  Method 1: Using standard parameters
 
-      **mongo --host** <*DB_HOST*> **--port** <*DB_PORT*> **-u** <*DB_USER*> **-p** **--authenticationDatabase** **admin**
+      .. code-block:: text
+
+         mongo --host <DB_HOST> --port <DB_PORT> -u <DB_USER> -p --authenticationDatabase admin
 
       Enter the database account password when prompted:
 
@@ -259,7 +269,9 @@ Connecting to a DB Instance Using the MongoDB Client (Non-SSL)
 
    -  Method 2: Using standard URI format
 
-      **mongo "mongodb://rwuser:**\ <password>\ **@**\ *<DB_HOST>*\ **:**\ *<DB_PORT>*\ **/test?authSource=admin&replicaSet=replica"**
+      .. code-block:: text
+
+         mongo "mongodb://rwuser:<password>@<DB_HOST>:<DB_PORT>/test?authSource=admin&replicaSet=replica"
 
       To obtain the public connection address, click the instance name and choose **Connections**. The address is displayed in **Public Network Connection Address** field on the **Public Connection** tab.
 
@@ -274,11 +286,15 @@ Connecting to a DB Instance Using the MongoDB Client (Non-SSL)
 
    -  Connect to the instance using standard parameters. The following is an example command:
 
-      **mongo** **--host replica/192.168.1.6,192.168.1.80 --port 8635 -u rwuser -p --authenticationDatabase admin**
+      .. code-block:: text
+
+         mongo --host replica/192.168.1.6,192.168.1.80 --port 8635 -u rwuser -p --authenticationDatabase admin
 
    -  Connect to the DB instance Using standard URI format. The following is an example command:
 
-      **mongo "mongodb://rwuser:<password>@\ 192.168.1.80:8635/test?authSource=admin&replicaSet=replica"**
+      .. code-block:: text
+
+         mongo "mongodb://rwuser:<password>@192.168.1.80:8635/test?authSource=admin&replicaSet=replica"
 
 #. Check the connection result. If the following information is displayed, the connection is successful.
 
