@@ -2,13 +2,13 @@
 
 .. _en-us_topic_slow_query_log:
 
-Slow Query Log
-==============
+Slow Query Logs
+===============
 
 **Scenarios**
 -------------
 
-Slow query logs record statements whose execution period exceeds the value of **operationProfiling.slowOpThresholdMs** (100 ms by default). With slow query logs, you can identify and optimize slowly executed statements.
+Slow query logs record statements whose execution period exceeds the value of **operationProfiling.slowOpThresholdMs** (500 ms by default). With slow query logs, you can identify and optimize slowly executed statements.
 
 .. note::
 

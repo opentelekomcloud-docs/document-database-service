@@ -66,7 +66,9 @@ Connecting to a DB Instance Using the MongoDB Client (SSL)
 
    -  Method 1: Using standard parameters
 
-      **mongo --host** <*DB_HOST*> **--port** <*DB_PORT*> **-u** <*DB_USER*> **-p** **--authenticationDatabase** **admin** **--ssl --sslCAFile** <*FILE_PATH*> **--sslAllowInvalidHostnames**
+      .. code-block:: text
+
+         mongo --host <DB_HOST> --port <DB_PORT> -u <DB_USER> -p --authenticationDatabase admin --ssl --sslCAFile <FILE_PATH> --sslAllowInvalidHostnames
 
       Enter the database account password when prompted:
 
@@ -76,7 +78,9 @@ Connecting to a DB Instance Using the MongoDB Client (SSL)
 
    -  Method 2: Using standard URI format
 
-      **mongo** **mongodb://rwuser:**\ <password>\ **@**\ *<DB_HOST>*\ **:**\ *<DB_PORT>*\ **/test?authSource=admin** **--ssl --sslCAFile** <*FILE_PATH*> **--sslAllowInvalidHostnames**
+      .. code-block:: text
+
+         mongo mongodb://rwuser:<password>@<DB_HOST>:<DB_PORT>/test?authSource=admin --ssl --sslCAFile <FILE_PATH> --sslAllowInvalidHostnames
 
       The connection information can be obtained in the **Address** column on the **Instance Management** page.
 
@@ -93,11 +97,15 @@ Connecting to a DB Instance Using the MongoDB Client (SSL)
 
    -  Connect to the DB instance using standard parameters. The following is an example command:
 
-      **mongo --host 192.168.1.6 --port 8635 -u rwuser -p --authenticationDatabase admin --ssl --sslCAFile /tmp/ca.crt** **--sslAllowInvalidHostnames**
+      .. code-block:: text
+
+         mongo --host 192.168.1.6 --port 8635 -u rwuser -p --authenticationDatabase admin --ssl --sslCAFile /tmp/ca.crt --sslAllowInvalidHostnames
 
    -  Connect to the DB instance using standard URI format. The following is an example command:
 
-      **mongo** **mongodb://rwuser:<password>@192.168.1.6:8635/test?authSource=admin** **--ssl --sslCAFile** **/tmp/ca.crt** **--sslAllowInvalidHostnames**
+      .. code-block:: text
+
+         mongo mongodb://rwuser:<password>@192.168.1.6:8635/test?authSource=admin --ssl --sslCAFile /tmp/ca.crt --sslAllowInvalidHostnames
 
 #. Check the connection result. If the following information is displayed, the connection is successful.
 
@@ -116,7 +124,9 @@ Connecting to a DB Instance Using the MongoDB Client (Non-SSL)
 
    -  Method 1: Using standard parameters
 
-      **mongo --host** <*DB_HOST*> **--port** <*DB_PORT*> **-u** <*DB_USER*> **-p** **--authenticationDatabase** **admin**
+      .. code-block:: text
+
+         mongo --host <DB_HOST> --port <DB_PORT> -u <DB_USER> -p --authenticationDatabase admin
 
       Enter the database account password when prompted:
 
@@ -126,7 +136,9 @@ Connecting to a DB Instance Using the MongoDB Client (Non-SSL)
 
    -  Method 2: Using standard URI format
 
-      **mongo** **mongodb://rwuser:**\ <password>\ **@**\ *<DB_HOST>*\ **:**\ *<DB_PORT>*\ **/test?authSource=admin**
+      .. code-block:: text
+
+         mongo mongodb://rwuser:<password>@<DB_HOST>:<DB_PORT>/test?authSource=admin
 
       The connection information can be obtained in the **Address** column on the **Instance Management** page.
 
@@ -141,11 +153,15 @@ Connecting to a DB Instance Using the MongoDB Client (Non-SSL)
 
    -  Connect to the DB instance using standard parameters. The following is an example command:
 
-      **mongo --host 192.168.1.6 --port 8635 -u rwuser -p --authenticationDatabase admin**
+      .. code-block:: text
+
+         mongo --host 192.168.1.6 --port 8635 -u rwuser -p --authenticationDatabase admin
 
    -  Connect to the DB instance using standard URI format. The following is an example command:
 
-      **mongo** **mongodb://rwuser:<password>@192.168.1.6:8635/test?authSource=admin**
+      .. code-block:: text
+
+         mongo mongodb://rwuser:<password>@192.168.1.6:8635/test?authSource=admin
 
 #. Check the connection result. If the following information is displayed, the connection is successful.
 
