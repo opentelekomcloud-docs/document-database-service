@@ -28,7 +28,6 @@ For details about the cluster instance specifications, see :ref:`Table 1 <dds_01
    CPU Type vCPUs Memory (GB) Default Maximum Number of Connections
    ======== ===== =========== =====================================
    x86      2     4           600
-   Kunpeng
    ======== ===== =========== =====================================
 
 .. _dds_01_0024__table3885614174718:
