@@ -25,9 +25,10 @@ DB Instance Management
 -  :ref:`Setting the Recycle Bin Policy <dds_api_0138>`
 -  :ref:`Querying the Recycling Policy of a DB Instance <dds_api_0215>`
 -  :ref:`Querying DB Instances in the Recycle Bin <dds_api_021>`
--  :ref:`Querying LTS Log Configurations <en-us_topic_0000002142831253>`
--  :ref:`Associating an Instance with an LTS Log Stream <en-us_topic_0000002107112644>`
--  :ref:`Disassociating an Instance from an LTS Log Stream <en-us_topic_0000002107272436>`
+-  :ref:`Querying LTS Log Configurations <dds_api_022>`
+-  :ref:`Configuring the Maintenance Window <dds_api_023>`
+-  :ref:`Associating an Instance with an LTS Log Stream <dds_api_024>`
+-  :ref:`Disassociating an Instance from an LTS Log Stream <dds_api_025>`
 
 .. toctree::
    :maxdepth: 1
@@ -54,5 +55,6 @@ DB Instance Management
    querying_the_recycling_policy_of_a_db_instance
    querying_db_instances_in_the_recycle_bin
    querying_lts_log_configurations
+   configuring_the_maintenance_window
    associating_an_instance_with_an_lts_log_stream
    disassociating_an_instance_from_an_lts_log_stream

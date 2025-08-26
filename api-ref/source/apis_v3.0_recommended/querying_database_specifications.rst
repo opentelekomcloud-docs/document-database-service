@@ -46,7 +46,7 @@ Requests
 
 -  Example request
 
-   GET https://dds.eu-de.otc.t-systems.com/v3.1/0549b4a43100d4f32f51c01c2fe4acdb/flavors?engine_name=DDS-Community&engine_version=3.4&offset=1&limit=20
+   GET https://dds.eu-de.otc.t-systems.com/v3.1/0549b4a43100d4f32f51c01c2fe4acdb/flavors?engine_name=DDS-Community&engine_version=4.0&offset=1&limit=20
 
 Responses
 ---------
@@ -107,7 +107,7 @@ Responses
       +-----------------------+-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
       | engine_versions       | Array of strings      | Database versions                                                                                                                                                                             |
       |                       |                       |                                                                                                                                                                                               |
-      |                       |                       | For example, DDS mongos node, {"3.4", "4.0", "4.2", "4.4"}                                                                                                                                    |
+      |                       |                       | For example, DDS mongos node, {"4.0", "4.2", "4.4", "5.0", }                                                                                                                                  |
       +-----------------------+-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. note::
@@ -127,7 +127,7 @@ Responses
                   "vcpus": "1",
                   "ram": "4",
                   "spec_code": "dds.mongodb.s2.medium.4.mongos",
-                  "engine_versions":["3.4","4.0"],
+                  "engine_versions":["4.0"],
                   "az_status": {
                       "eu-de-01": "normal",
                       "eu-de-02": "normal",
@@ -140,7 +140,7 @@ Responses
                   "vcpus": "2",
                   "ram": "8",
                   "spec_code": "dds.mongodb.s2.large.4.mongos",
-                  "engine_versions":["3.4","4.0"],
+                  "engine_versions":["4.0"],
                   "az_status": {
                       "eu-de-01": "normal",
                       "eu-de-02": "normal",
@@ -153,7 +153,7 @@ Responses
                   "vcpus": "4",
                   "ram": "16",
                   "spec_code": "dds.mongodb.s2.xlarge.4.mongos",
-                  "engine_versions":["3.4","4.0"],
+                  "engine_versions":["4.0"],
                   "az_status": {
                       "eu-de-01": "normal",
                       "eu-de-02": "normal",
@@ -166,7 +166,7 @@ Responses
                   "vcpus": "8",
                   "ram": "32",
                   "spec_code": "dds.mongodb.s2.2xlarge.4.mongos",
-                  "engine_versions":["3.4","4.0"],
+                  "engine_versions":["4.0"],
                   "az_status": {
                       "eu-de-01": "normal",
                       "eu-de-02": "normal",
@@ -179,7 +179,7 @@ Responses
                   "vcpus": "16",
                   "ram": "64",
                   "spec_code": "dds.mongodb.s2.4xlarge.4.mongos",
-                  "engine_versions":["3.4","4.0"],
+                  "engine_versions":["4.0"],
                   "az_status": {
                       "eu-de-01": "normal",
                       "eu-de-02": "normal",
@@ -192,7 +192,7 @@ Responses
                   "vcpus": "1",
                   "ram": "4",
                   "spec_code": "dds.mongodb.s2.medium.4.shard",
-                  "engine_versions":["3.4","4.0"],
+                  "engine_versions":["4.0"],
                   "az_status": {
                       "eu-de-01": "normal",
                       "eu-de-02": "normal",
@@ -205,7 +205,7 @@ Responses
                   "vcpus": "2",
                   "ram": "8",
                   "spec_code": "dds.mongodb.s2.large.4.shard",
-                  "engine_versions":["3.4","4.0"],
+                  "engine_versions":["4.0"],
                   "az_status": {
                       "eu-de-01": "normal",
                       "eu-de-02": "normal",
@@ -218,7 +218,7 @@ Responses
                   "vcpus": "4",
                   "ram": "16",
                   "spec_code": "dds.mongodb.s2.xlarge.4.shard",
-                  "engine_versions":["3.4","4.0"],
+                  "engine_versions":["4.0"],
                   "az_status": {
                       "eu-de-01": "normal",
                       "eu-de-02": "normal",
@@ -231,7 +231,7 @@ Responses
                   "vcpus": "8",
                   "ram": "32",
                   "spec_code": "dds.mongodb.s2.2xlarge.4.shard",
-                  "engine_versions":["3.4","4.0"],
+                  "engine_versions":["4.0"],
                   "az_status": {
                       "eu-de-01": "normal",
                       "eu-de-02": "normal",
@@ -244,7 +244,7 @@ Responses
                   "vcpus": "16",
                   "ram": "64",
                   "spec_code": "dds.mongodb.s2.4xlarge.4.shard",
-                  "engine_versions":["3.4","4.0"],
+                  "engine_versions":["4.0"],
                   "az_status": {
                       "eu-de-01": "normal",
                       "eu-de-02": "normal",
@@ -257,7 +257,7 @@ Responses
                   "vcpus": "2",
                   "ram": "4",
                   "spec_code": "dds.mongodb.s2.large.2.config",
-                  "engine_versions":["3.4","4.0"],
+                  "engine_versions":["4.0"],
                   "az_status": {
                       "eu-de-01": "normal",
                       "eu-de-02": "normal",
@@ -270,7 +270,7 @@ Responses
                   "vcpus": "1",
                   "ram": "4",
                   "spec_code": "dds.mongodb.s2.medium.4.repset",
-                  "engine_versions":["3.4","4.0"],
+                  "engine_versions":["4.0"],
                   "az_status": {
                       "eu-de-01": "normal",
                       "eu-de-02": "normal",
@@ -284,7 +284,7 @@ Responses
                   "vcpus": "2",
                   "ram": "8",
                   "spec_code": "dds.mongodb.s2.large.4.repset",
-                  "engine_versions":["3.4","4.0"],
+                  "engine_versions":["4.0"],
                   "az_status": {
                       "eu-de-01": "normal",
                       "eu-de-02": "normal",
@@ -298,7 +298,7 @@ Responses
                   "vcpus": "4",
                   "ram": "16",
                   "spec_code": "dds.mongodb.s2.xlarge.4.repset",
-                  "engine_versions":["3.4","4.0"],
+                  "engine_versions":["4.0"],
                   "az_status": {
                       "eu-de-01": "normal",
                       "eu-de-02": "normal",
@@ -312,7 +312,7 @@ Responses
                   "vcpus": "8",
                   "ram": "32",
                   "spec_code": "dds.mongodb.s2.2xlarge.4.repset",
-                  "engine_versions":["3.4","4.0"],
+                  "engine_versions":["4.0"],
                   "az_status": {
                       "eu-de-01": "normal",
                       "eu-de-02": "normal",
@@ -326,7 +326,7 @@ Responses
                   "vcpus": "16",
                   "ram": "64",
                   "spec_code": "dds.mongodb.s2.4xlarge.4.repset",
-                  "engine_versions":["3.4","4.0"],
+                  "engine_versions":["4.0"],
                   "az_status": {
                       "eu-de-01": "normal",
                       "eu-de-02": "normal",
@@ -340,7 +340,7 @@ Responses
                   "vcpus": "1",
                   "ram": "4",
                   "spec_code": "dds.mongodb.s2.medium.4.single",
-                  "engine_versions":["3.4","4.0"],
+                  "engine_versions":["4.0"],
                   "az_status": {
                       "eu-de-01": "normal",
                       "eu-de-02": "normal",
@@ -353,7 +353,7 @@ Responses
                   "vcpus": "2",
                   "ram": "8",
                   "spec_code": "dds.mongodb.s2.large.4.single",
-                  "engine_versions":["3.4","4.0"],
+                  "engine_versions":["4.0"],
                   "az_status": {
                       "eu-de-01": "normal",
                       "eu-de-02": "normal",
@@ -366,7 +366,7 @@ Responses
                   "vcpus": "4",
                   "ram": "16",
                   "spec_code": "dds.mongodb.s2.xlarge.4.single",
-                  "engine_versions":["3.4","4.0"],
+                  "engine_versions":["4.0"],
                   "az_status": {
                       "eu-de-01": "normal",
                       "eu-de-02": "normal",
@@ -379,7 +379,7 @@ Responses
                   "vcpus": "8",
                   "ram": "32",
                   "spec_code": "dds.mongodb.s2.2xlarge.4.single",
-                  "engine_versions":["3.4","4.0"],
+                  "engine_versions":["4.0"],
                   "az_status": {
                       "eu-de-01": "normal",
                       "eu-de-02": "normal",
@@ -392,7 +392,7 @@ Responses
                   "vcpus": "16",
                   "ram": "64",
                   "spec_code": "dds.mongodb.s2.4xlarge.4.single",
-                  "engine_versions":["3.4","4.0"],
+                  "engine_versions":["4.0"],
                   "az_status": {
                       "eu-de-01": "normal",
                       "eu-de-02": "normal",
