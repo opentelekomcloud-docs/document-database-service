@@ -5,44 +5,57 @@
 How Can I Install a MongoDB Client?
 ===================================
 
-MongoDB official website provides client installation packages for different OSs. Download the official binary installation package at https://www.mongodb.com/download-center#community.
+MongoDB official website provides client installation packages for different OSs. Download the official package at https://www.mongodb.com/try/download/community.
 
-The following uses Red Hat Linux 7 and MongoDB 3.4.0 as examples to describe how to obtain the required installation package and install the MongoDB client.
+.. important::
+
+   -  The following uses **RedHat/CentOS 8.0 x64** and MongoDB 5.0.28 as examples to describe how to obtain the required installation package and install the MongoDB client.
+   -  During the installation, select a client version that matches the instance version based on the actual operating system.
 
 Procedure
 ---------
 
 #. Obtain the installation package.
 
-   a. Log in at https://www.mongodb.com/download-center/community.
+   a. Visit the `MongoDB official website <https://www.mongodb.com/try/download/community>`__.
 
-   b. Choose **Server**, select **RHEL 7.0 Linux 64-bit x64** for **OS**, and click **All version binaries**. :ref:`Figure 1 <dds_faq_0018__fig129943125910>` shows an example.
+   b. Select version **5.0.28**, platform **RedHat/CentOS 8.0 x64**, and package **tgz**. :ref:`Figure 1 <dds_faq_0018__fig646895910135>` shows an example.
 
-      .. _dds_faq_0018__fig129943125910:
+      .. _dds_faq_0018__fig646895910135:
 
-      .. figure:: /_static/images/en-us_image_0000001096453900.png
-         :alt: **Figure 1** MongoDB official webpage
+      .. figure:: /_static/images/en-us_image_0000002412372785.png
+         :alt: **Figure 1** MongoDB official web page
 
-         **Figure 1** MongoDB official webpage
+         **Figure 1** MongoDB official web page
 
-   c. Open the downloading page, click **linux/mongodb-linux-x86_64-rhel70-3.4.0.tgz** to download the binary installation package of MongoDB 3.4.0. :ref:`Figure 2 <dds_faq_0018__fig12339163313218>` shows an example.
+   c. Use either of the following methods to upload the installation package to the ECS:
 
-      .. _dds_faq_0018__fig12339163313218:
+      .. note::
 
-      .. figure:: /_static/images/en-us_image_0000001142893909.png
-         :alt: **Figure 2** Downloading page
+         For details about how to log in to an ECS, see :ref:`How Can I Create and Log In to an ECS? <dds_faq_0034>`
 
-         **Figure 2** Downloading page
+      -  Click **Download** to obtain the binary installation package of version 5.0.28. The name of the installation package is **mongodb-linux-x86_64-rhel80-5.0.28.tgz**. Upload the installation package to the ECS.
+      -  Click **Copy link** to obtain the download address. Log in to the ECS and run the **wget** *copylink* command.
 
-#. Upload the installation package to the ECS. For details about how to log in to an ECS.
+         .. note::
+
+            Replace *copylink* with the actual download address.
 
 #. Decompress the installation package on the ECS.
 
-   **tar zxvf mongodb-linux-x86_64-rhel70-3.4.0.tgz**
+   **tar zxvf mongodb-**\ *linux-x86_64-rhel80-5.0.28*\ **.tgz**
 
-#. Obtain the client tool from the **bin** directory of the installation package.
+   .. note::
 
-   **cd mongodb-linux-x86_64-rhel70-3.4.0/bin**
+      Replace the installation package name with the actual one.
+
+#. Access the **bin** directory where the installation package is located.
+
+   **cd mongodb-**\ *linux-x86_64-rhel80-5.0.28*\ **/bin**
+
+   .. note::
+
+      Replace the installation package name with the actual one.
 
    The common tools are as follows:
 
@@ -50,14 +63,14 @@ Procedure
    -  Data export tool mongoexport
    -  Data import tool mongoimport
 
-#. Before using a client tool, assign the execute permission to it.
+#. Make the packages executable.
 
-   -  Run the **chmod +x mongo** command to grant a client permission to connect to a DB instance.
+   -  Run the **chmod +x mongo** command to grant a client permission to connect to an instance.
    -  Run the **chmod +x mongoexport** command to grant a client permission to export data.
    -  Run the **chmod +x mongoimport** command to grant a client permission to import data.
 
-#. Connect to a DB instance through the installed client.
+#. Connect to an instance through the installed client.
 
-   -  For details on how to connect to a cluster instance, see :ref:`Connecting to a Cluster Instance Over Private Networks <en-us_topic_0044018334>`.
-   -  For details on how to connect to a replica set instance, see :ref:`Connecting to a Replica Set Instance Over Private Networks <en-us_topic_0105284966>`.
-   -  For details on how to connect to a single node instance, see :ref:`Connecting to a Single Node Instance Over Private Networks <dds_02_0028>`.
+   -  To connect to a cluster instance, see :ref:`Connecting to a Cluster Instance Over Private Networks <dds_02_0009>`.
+   -  To connect to a replica set instance, see :ref:`Connecting to a Replica Set Instance Over Private Networks <dds_02_0055>`.
+   -  To connect to a single node instance, see :ref:`Connecting to a Single-Node Instance Over Private Networks <dds_02_0074>`.
