@@ -10,7 +10,7 @@ Document Database Service (DDS) is a MongDB-compatible cloud database service th
 Release Notes
 -------------
 
-DDS is compatible with community versions 3.4, 4.0, 4.2 and 4.4. For details, see :ref:`Mapping Between DDS Versions and Community Versions <dds_01_0060>`.
+DDS is compatible with community versions 4.0, 4.2, 4.4 and 5.0. For details, see :ref:`Mapping Between DDS Versions and Community Versions <dds_01_0060>`.
 
 Lifecycle Planning of DDS Versions
 ----------------------------------
@@ -26,8 +26,9 @@ Lifecycle Planning of DDS Versions
    Version Status         Planned EOM Time Planned EOS Time
    ======= ============== ================ ================
    3.2     Unavailable    March 2018       September 2024
-   3.4     Commercial use February 2020    June 2025
+   3.4     Unavailable    February 2020    June 2025
    4.0     Commercial use January 2022     April 2027
    4.2     Commercial use November 2022    April 2028
    4.4     Commercial use September 2023   April 2029
+   5.0     Commercial use N/A              N/A
    ======= ============== ================ ================
