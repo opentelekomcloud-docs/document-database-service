@@ -9,6 +9,7 @@ Introduction
 -  :ref:`System Architecture <dds_01_0021>`
 -  :ref:`Basic Concepts <dds_01_0001>`
 -  :ref:`Functions and Features <dds_01_0006>`
+-  :ref:`Versions <dds_01_0046>`
 -  :ref:`Typical Application Scenarios <dds_01_0015>`
 -  :ref:`DDS DB Instance <dds_01_0013>`
 -  :ref:`Constraints and Recommendations <dds_01_0022>`
@@ -26,6 +27,7 @@ Introduction
    system_architecture/index
    basic_concepts/index
    functions_and_features
+   versions
    typical_application_scenarios
    dds_db_instance/index
    constraints_and_recommendations

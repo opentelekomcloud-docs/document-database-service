@@ -30,7 +30,7 @@ Prerequisites
 
    .. note::
 
-      If you use a :ref:`connection address <en-us_topic_0044018334__li122297367491>` to connect to a cluster instance, download the MongoDB client of version later than 3.4.
+      If you use a :ref:`connection address <en-us_topic_0044018334__li122297367491>` to connect to a cluster instance, download the MongoDB client of version later than 4.0.
 
 Connecting to a DB Instance Using the MongoDB Client (SSL)
 ----------------------------------------------------------
@@ -88,7 +88,7 @@ Connecting to a DB Instance Using the MongoDB Client (SSL)
 
       The connection information can be obtained in the **Address** column on the **Instance Management** page.
 
-      A connection address indicates that one of the dds mongos nodes will be randomly connected. If you use this method to connect to a DB instance, use the MongoDB client of version later than 3.4.
+      A connection address indicates that one of the dds mongos nodes will be randomly connected. If you use this method to connect to a DB instance, use the MongoDB client of version later than 4.0.
 
    .. note::
 
@@ -149,7 +149,7 @@ Connecting to a DB Instance Using the MongoDB Client (Non-SSL)
 
       The connection information can be obtained in the **Address** column on the **Instance Management** page.
 
-      A connection address indicates that one of the dds mongos nodes will be randomly connected. If you use this method to connect to a DB instance, use the MongoDB client of version later than 3.4.
+      A connection address indicates that one of the dds mongos nodes will be randomly connected. If you use this method to connect to a DB instance, use the MongoDB client of version later than 4.0.
 
    .. note::
 

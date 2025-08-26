@@ -31,7 +31,7 @@ Prerequisites
 
       .. note::
 
-         If you use a :ref:`connection address <dds_02_0006__li122297367491>` to connect to a cluster instance, download the MongoDB client of version later than 3.4.
+         If you use a :ref:`connection address <dds_02_0006__li122297367491>` to connect to a cluster instance, download the MongoDB client of version later than 4.0.
 
    **Robo 3T**
 

@@ -15,7 +15,7 @@ This section describes how to obtain the IP addresses of the shard and config no
 Before You Start
 ----------------
 
--  DDS supports cluster instances of Community Edition 3.4, 4.0, 4.2, and 4.4.
+-  DDS supports cluster instances of Community Edition 4.0, 4.2, and 4.4.
 -  DDS creates two connection addresses for the primary node and secondary node in a shard respectively.
 -  Once the connection addresses are assigned to your nodes, they cannot be modified or deleted.
 -  The connection address is accessible from private networks only.
