@@ -23,6 +23,7 @@ Document Database Service - User Guide
    auditing/index
    log_management/index
    tag_management
+   sql_execution_control
    faqs/index
    change_history
    glossary
