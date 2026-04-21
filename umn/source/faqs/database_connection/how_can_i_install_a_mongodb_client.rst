@@ -5,11 +5,11 @@
 How Can I Install a MongoDB Client?
 ===================================
 
-MongoDB official website provides client installation packages for different OSs. Download the official package at https://www.mongodb.com/try/download/community.
+MongoDB official website provides client installation packages for different OSs. Download the official package at https://www.mongodb.com/try/download/community-edition/releases/archive.
 
 .. important::
 
-   -  The following uses **RedHat/CentOS 8.0 x64** and MongoDB 5.0.28 as examples to describe how to obtain the required installation package and install the MongoDB client.
+   -  The following uses **RedHat/CentOS 8.0 x64** and MongoDB 4.2.25 as examples to describe how to obtain the required installation package and install the MongoDB client.
    -  During the installation, select a client version that matches the instance version based on the actual operating system.
 
 Procedure
@@ -17,16 +17,16 @@ Procedure
 
 #. Obtain the installation package.
 
-   a. Visit the `MongoDB official website <https://www.mongodb.com/try/download/community>`__.
+   a. Access https://www.mongodb.com/try/download/community-edition/releases/archive.
 
-   b. Select version **5.0.28**, platform **RedHat/CentOS 8.0 x64**, and package **tgz**. :ref:`Figure 1 <dds_faq_0018__fig646895910135>` shows an example.
+   b. Select version **4.2.25**, platform **RedHat/CentOS 8.0 x64**, and package **tgz**, as shown in :ref:`MongoDB page <dds_faq_0018__fig646895910135>`.
 
       .. _dds_faq_0018__fig646895910135:
 
-      .. figure:: /_static/images/en-us_image_0000002412372785.png
-         :alt: **Figure 1** MongoDB official web page
+      .. figure:: /_static/images/en-us_image_0000002529818314.png
+         :alt: **Figure 1** MongoDB page
 
-         **Figure 1** MongoDB official web page
+         **Figure 1** MongoDB page
 
    c. Use either of the following methods to upload the installation package to the ECS:
 
@@ -34,16 +34,16 @@ Procedure
 
          For details about how to log in to an ECS, see :ref:`How Can I Create and Log In to an ECS? <dds_faq_0034>`
 
-      -  Click **Download** to obtain the binary installation package of version 5.0.28. The name of the installation package is **mongodb-linux-x86_64-rhel80-5.0.28.tgz**. Upload the installation package to the ECS.
-      -  Click **Copy link** to obtain the download address. Log in to the ECS and run the **wget** *copylink* command.
+      -  Click to download the binary installation package of version 4.2.25. The name of the installation package is **mongodb-linux-x86_64-rhel80-4.2.25.tgz**. Upload the installation package to the ECS.
+      -  Obtain the download link, log in to the ECS, and run the **wget link** command.
 
          .. note::
 
-            Replace *copylink* with the actual download address.
+            Replace *link* with the actual download link address.
 
 #. Decompress the installation package on the ECS.
 
-   **tar zxvf mongodb-**\ *linux-x86_64-rhel80-5.0.28*\ **.tgz**
+   **tar zxvf mongodb-**\ *linux-x86_64-rhel80-4.2.25*\ **.tgz**
 
    .. note::
 
@@ -51,7 +51,7 @@ Procedure
 
 #. Access the **bin** directory where the installation package is located.
 
-   **cd mongodb-**\ *linux-x86_64-rhel80-5.0.28*\ **/bin**
+   **cd mongodb-**\ *linux-x86_64-rhel80-4.2.25*\ **/bin**
 
    .. note::
 
