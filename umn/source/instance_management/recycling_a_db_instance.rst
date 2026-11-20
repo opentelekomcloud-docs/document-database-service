@@ -11,8 +11,11 @@ Precautions
 -----------
 
 -  The recycling policy is enabled by default and cannot be disabled. Instances in the recycle bin are retained for 7 days by default, and this will not generate any charges.
+-  Operations after an instance is deleted
 
--  Up to 100 instances can be moved to the recycle bin. Once the recycle bin is full, you can still delete instances, but they cannot be placed in the recycle bin, so the deletions will be permanent.
+   -  If the instance has automated full backups, the system keeps the most recent one of the previous day. If there is no automated full backup generated on that day, it retains the latest available one and moves it to the recycle bin.
+   -  If there are fewer than 100 backups in the recycle bin, the system will create a full backup and move it to the recycle bin.
+   -  You can select one of the backups to rebuild your instance.
 
 Modifying the Recycling Policy
 ------------------------------
