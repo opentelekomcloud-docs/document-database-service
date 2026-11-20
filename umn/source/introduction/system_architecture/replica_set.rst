@@ -9,7 +9,7 @@ A replica set consists of a set of mongod processes. It is a collection of nodes
 
 .. note::
 
-   For details about the mongod process, see the MongoDB `official document <https://docs.mongodb.com/v3.2/tutorial/manage-mongodb-processes/index.html>`__.
+   For details about the mongod process, see the MongoDB `official document <https://www.mongodb.com/docs/manual/tutorial/manage-mongodb-processes/>`__.
 
 A replica set consists of three nodes: primary, secondary, and hidden. The three-node architecture is set up automatically, and the three nodes automatically synchronize data with each other to ensure data reliability.
 
